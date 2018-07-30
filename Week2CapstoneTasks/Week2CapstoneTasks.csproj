@@ -42,14 +42,10 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="AddTask.cs" />
-    <Compile Include="DeleteTask.cs" />
-    <Compile Include="ListTasks.cs" />
-    <Compile Include="MarkTaskComplete.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="Retry.cs" />
     <Compile Include="ToDo.cs" />
+    <Compile Include="ToDoService.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
